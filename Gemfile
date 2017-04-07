@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bcrypt'
+gem 'faker'
 
 group :development, :test do
   gem 'sqlite3'
