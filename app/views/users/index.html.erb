@@ -3,18 +3,12 @@
 <h1>All Users</h1>
 
 <div class="row">
-  <table class="table">
-    <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-    </tr>
-    </thead>
-    <% @users.each do |u| %>
-        <tr>
-          <td><%= u.name %></td>
-          <td><%= u.email %></td>
-        </tr>
+  <ul class="users">
+    <% @users.each do |user| %>
+      <li>
+        <%=	gravatar_for user, size: 50 %>
+        <%= link_to user.name, user %>
+      </li>
     <% end %>
-  </table>
+  </ul>
 </div>
