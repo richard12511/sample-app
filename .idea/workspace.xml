@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d970e2f-74f5-402c-a82b-6bea05528675" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -36,21 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="667">
+              <caret line="54" column="54" lean-forward="false" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller_test.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users_controller_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="645">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -127,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
@@ -142,8 +139,9 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       </list>
     </option>
   </component>
@@ -494,12 +492,12 @@
       <workItem from="1490882702386" duration="872000" />
       <workItem from="1490883629630" duration="35000" />
       <workItem from="1490883673198" duration="60000" />
-      <workItem from="1490883744398" duration="13803000" />
+      <workItem from="1490883744398" duration="14156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49168000" />
+    <option name="totallyTimeSpent" value="49521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,14 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -915,18 +905,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="645">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="615">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="54" column="54" lean-forward="false" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
           <folding />
         </state>
       </provider>
